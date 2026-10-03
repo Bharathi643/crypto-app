@@ -1,16 +1,26 @@
-# Flutter Frontend
+# Crypto App - Flutter Frontend
 
-Uses Binance-backed REST data, Binance WebSocket live updates through the Node backend, CoinGecko metadata from the backend, and PostgreSQL-backed watchlist/history.
+Flutter-based crypto market and research mobile app.
 
-Run:
+Uses Binance-backed REST market data, Binance WebSocket live updates through the Node.js backend, CoinGecko metadata from the backend, and PostgreSQL-backed application data.
 
-```cmd
+## Features
+
+- Coin list
+- Coin details
+- Market statistics
+- Watchlist
+- Search
+- Filtering
+- Sorting
+- Interactive price chart
+- Live market price updates
+- API loading, error, and empty states
+- Rounded Crypto App launcher icon
+
+## Run
+
+```bash
 flutter pub get
 flutter run
 ```
-
-For the physical Android phone, use the `.env` values supplied in this folder.
-
-## UI update
-
-The latest UI follows the generated Crypto App visual direction: navy/black background, gold brand header, blue controls, green/red market states, rounded cards, sparkline visuals, interactive chart, and rounded launcher icon. No custom splash screen is included.
