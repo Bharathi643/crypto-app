@@ -1,0 +1,16 @@
+.dart_tool/
+.pub/
+build/
+.env
+.idea/
+*.iml
+
+# Flutter generated files
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android generated files
+android/.kotlin/
+
+# Local backup/archive files
+*.zip

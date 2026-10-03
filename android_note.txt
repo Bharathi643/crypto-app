@@ -1,0 +1,3 @@
+If Android blocks HTTP during local development, add android:usesCleartextTraffic="true"
+to the <application ...> element in android/app/src/main/AndroidManifest.xml.
+For production, use HTTPS instead.
